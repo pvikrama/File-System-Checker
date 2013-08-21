@@ -2,9 +2,7 @@ File-System-Checker
 ===================
 
 Time Span => 1 Month; 
-
 Primary Source File => readwrite.c;
-
 Support Files => ext2_fs.h, genhd.h, makefile;
 
 Description:
@@ -25,6 +23,5 @@ Count the number of directory entries that point to each inode (e.g., the number
 Walk the directory tree and verify that the block bitmap is correct. If you find a block that should (or should not) be marked in the bitmap, notify the user and correct the bitmap.
 
 Additional Functionality:
-• Prints out the partition table information
-
+• Prints out the partition table information; 
 • Prints out the superblock information
