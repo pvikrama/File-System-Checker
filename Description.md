@@ -9,8 +9,7 @@ Support Files => ext2_fs.h, genhd.h, makefile;
 
 Description:
 
-FSCK (File System Checker Tool)
-
+FSCK (File System Checker Tool):
 This tool is used to read, parse, manipulate and correct the on-disk image of an EXT2 file system. It runs 4 passes on the disk image and corrects for the following errors.
 
 • Pass 1=> Directory pointers:
